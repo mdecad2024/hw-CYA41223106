@@ -958,12 +958,13 @@ openByGet();
 </script>
 <p>  </p>
 <h1>w11_hw</h1>
-<p>組員:41223106(零件:1、2、3、4)</p>
-<p>       41223107<span>(零件:1、5、6、7</span><span>)</span></p>
+<p>組員:41223106(零件:1、2、3、4、5)</p>
+<p>       41223107<span>(零件:6、7、8、9、10</span><span>)</span></p>
 <p><span>詳細觀看至各零件頁面面</span></p>
-<p><span>零件檔: <a href="/downloads/w11.zip">/downloads/w11.zip</a>、<a href="/downloads/41223106-w11(2).zip">/downloads/41223106-w11(2).zip</a>、<a href="/downloads/41223106-w11(3).zip">/downloads/41223106-w11(3).zip</a>、<a href="/downloads/41223106-w11(4).zip">/downloads/41223106-w11(4).zip</a></span></p>
+<p><span>零件檔: <a href="/downloads/w11.zip">/downloads/w11.zip</a>、<a href="/downloads/41223106-w11(2).zip">/downloads/41223106-w11(2).zip</a>、<a href="/downloads/41223106-w11(3).zip">/downloads/41223106-w11(3).zip</a>、<a href="/downloads/41223106-w11(4).zip">/downloads/41223106-w11(4).zip</a>、<a href="/downloads/41223106-w11(5).zip">/downloads/41223106-w11(5).zip</a></span></p>
 <script src="/static/jsc3d.js" type="text/javascript"></script>
-<div id="models"><canvas height="175" id="cv1" style="border: 1px solid;" width="275"></canvas> <canvas height="175" id="cv2" style="border: 1px solid;" width="275"></canvas> <canvas height="175" id="cv3" style="border: 1px solid;" width="275"></canvas> <canvas height="175" id="cv4" style="border: 1px solid;" width="275"></canvas><canvas --="" canvas=""></canvas></div>
+<div id="models"><canvas height="175" id="cv1" style="border: 1px solid;" width="275"></canvas> <canvas height="175" id="cv2" style="border: 1px solid;" width="275"></canvas> <canvas height="175" id="cv3" style="border: 1px solid;" width="275"></canvas> <canvas height="175" id="cv4" style="border: 1px solid;" width="275"></canvas> <canvas height="175" id="cv5" style="border: 1px solid;" width="275"></canvas><canvas --="" canvas=""></canvas></div>
+<div></div>
 <div></div>
 <div style="width: 400px; height: 70px; border: 1px solid;">Model Color:<input id="mdlClr" onchange="changeOption('ModelColor',this.value)" style="margin-right: 50px;" type="color" value="#00ff40"/> Back Color1:<input id="bckClr1" onchange="changeOption('BackgroundColor1',this.value)" style="margin-right: 50px;" type="color"/> Back Color2:<input id="bckClr2" onchange="changeOption('BackgroundColor2',this.value)" type="color"/><br/> Render Mode:<select id="render" onchange="changeOption('RenderMode',this.value)">
 <option>Flat</option>
@@ -1027,8 +1028,9 @@ function openByGet(){
     var urls = [
         "https://41223106@s104.cycu.org/~41223106/w11.stl",
         "https://41223106@s104.cycu.org/~41223106/41223106-w11(2).stl",
-        "https://41223106@s104.cycu.org/~41223106/41223106-w11(3).stl",
-        "https://41223106@s104.cycu.org/~41223106/41223106-w11(4).stl"// 新增的 STL URL
+        "https://41223106@s104.cycu.org/~41223106/41223106-w11-3.stl",
+        "https://41223106@s104.cycu.org/~41223106/41223106-w11(4).stl",
+        "https://41223106@s104.cycu.org/~41223106/41223106-w11(5).stl"// 新增的 STL URL
     ];
     var opt = getOptions();
     urls.forEach((url, index) => {
@@ -1039,8 +1041,7 @@ function openByGet(){
 
 openByGet();
 </script>
-</p>
-<h2>w11(1)</h2>
+</p><h2>w11(1)</h2>
 <p>零件檔:<a href="/downloads/w11.zip">/downloads/w11.zip</a></p>
 <p><img alt="" height="296" src="/images/w11.png" width="400"/></p>
 <p>繪製過程:</p>
